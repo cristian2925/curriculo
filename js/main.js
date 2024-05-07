@@ -8,6 +8,8 @@ document.querySelectorAll(".hamburguer")[0].addEventListener("click", function()
     }else{
         document.querySelectorAll(".hamburguer")[0].style.color ="#000";
         ico_hamburguer= true;
+
+        
     }
 
     enlaces_header.classList.toggle("hamburgueropen");
